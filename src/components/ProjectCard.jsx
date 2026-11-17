@@ -9,7 +9,7 @@ export default function ProjectCard({ project, onOpen }) {
       </div>
       <div className="flex flex-1 flex-col p-[18px]">
         <p className="project-category">{project.category}</p>
-        <h3 className="mb-2.5 text-[17px] font-semibold leading-[1.35] text-[color:var(--text-h)]">
+        <h3 className="mb-2.5 text-[18px] font-bold leading-[1.35] text-[color:var(--text-h)]">
           {project.title}
         </h3>
         <p className="flex-1 text-[13px] text-[color:var(--muted)]">{project.description}</p>

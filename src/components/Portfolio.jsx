@@ -98,7 +98,7 @@ export default function Portfolio() {
       <section className="content-section measurements-section" id="measurements">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">05 — QUAN SÁT DỮ LIỆU</p>
+            <p className="eyebrow">03 — QUAN SÁT DỮ LIỆU</p>
             <h2>{measurement.label}</h2>
           </div>
           <p className="muted">Dữ liệu thời tiết lịch sử<br />theo giờ tại TP. Hồ Chí Minh.</p>

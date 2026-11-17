@@ -5,13 +5,21 @@ export function useRepos(username){
     const [result, setResult] = useState(null);
     useEffect(() => {
         let ignore = false;
-        getRepos(username)
-            .then((repos) => ({username, repos}))
-            .catch((error) => ({username, error}))
-            .then((next) => {
-                if (!ignore) setResult(next);
-            });
-        return () => {ignore = true; };
+
+        async function loadRepos() {
+            try {
+                const repos = await getRepos(username);
+                if (!ignore) setResult({username, repos});
+            } catch (error) {
+                if (!ignore) setResult({username, error});
+            }
+        }
+
+        void loadRepos();
+
+        return () => {
+            ignore = true;
+        };
     }, [username]);
 
     const loading = result?.username !== username;

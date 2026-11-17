@@ -6,7 +6,6 @@ import { Achievements, Community, Skills } from './components/Experience.jsx';
 import Repositories from './components/Repositories.jsx';
 import BackToTop from './components/BackToTop.jsx';
 
-import './App.css';
 import './index.css';
 
 
@@ -18,9 +17,9 @@ export default function App() {
         <Hero />
         <Skills />
         <Portfolio />
-        <Repositories />
         <Community />
         <Achievements />
+        <Repositories />
         <ContactForm />
       </main>
       <footer className="site-footer">

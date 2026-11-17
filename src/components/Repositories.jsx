@@ -7,7 +7,7 @@ export default function Repositories() {
     <section className="content-section" id="repositories">
       <div className="section-heading">
         <div>
-          <p className="eyebrow">MÃ NGUỒN MỚI CẬP NHẬT</p>
+          <p className="eyebrow">06 — MÃ NGUỒN MỚI CẬP NHẬT</p>
           <h2>Repo gần đây</h2>
         </div>
         <a className="text-link" href={`https://github.com/${username}`} target="_blank" rel="noreferrer">

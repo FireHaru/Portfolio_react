@@ -52,7 +52,7 @@ export function Community() {
     <section className="content-section" id="activities">
       <div className="section-heading">
         <div>
-          <p className="eyebrow">03 — KẾT NỐI & CỐNG HIẾN</p>
+          <p className="eyebrow">04 — KẾT NỐI & CỐNG HIẾN</p>
           <h2>Trưởng thành cùng cộng đồng</h2>
         </div>
         <p className="muted">Từ tổ chức hoạt động<br />đến kết nối con người.</p>
@@ -128,7 +128,7 @@ export function Achievements() {
     <section className="content-section" id="achievements">
       <div className="section-heading">
         <div>
-          <p className="eyebrow">04 — DẤU MỐC</p>
+          <p className="eyebrow">05 — DẤU MỐC</p>
           <h2>Thành tích & ghi nhận</h2>
         </div>
         <p className="muted">Những dấu mốc từ quá trình học tập và cống hiến.</p>

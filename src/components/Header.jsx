@@ -6,9 +6,9 @@ const navigation = [
   ['skills', 'Kỹ năng'],
   ['projects', 'Dự án'],
   ['measurements', 'Số liệu'],
-  ['repositories', 'Repo'],
   ['activities', 'Hoạt động'],
   ['achievements', 'Thành tích'],
+  ['repositories', 'Repo'],
   ['contact', 'Liên hệ'],
 ];
 

@@ -59,7 +59,7 @@ export default function ContactForm() {
   return (
     <section className="content-section contact-section" id="contact">
       <div className="contact-copy">
-        <p className="eyebrow">06 — BẮT ĐẦU MỘT CUỘC TRÒ CHUYỆN</p>
+        <p className="eyebrow">BẮT ĐẦU MỘT CUỘC TRÒ CHUYỆN</p>
         <h2>Có một ý tưởng?<br /><em>Cùng trao đổi nhé.</em></h2>
         <p className="muted">Kết nối để chia sẻ về lập trình, dữ liệu hoặc một dự án thú vị.</p>
         <div className="contact-links">
